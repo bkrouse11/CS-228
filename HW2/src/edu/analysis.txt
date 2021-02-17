@@ -1,0 +1,31 @@
+In this homework assignment, we explored the runtime of three of the main sorting algorithms: Insertion Sort, Merge Sort, and QuickSort. 
+Each of these three algorithms is sorting a list based on an alphabet given by the user. 
+This alphabet would supply the correct order needed to sort the list of how the user wanted it to be sorted. 
+After completing the methods for WordList, the sorters, Alphabet, and AlphabetComparator, we had classes to run the code to see the time difference between the three. 
+SortWithStatistics was a method that would collect data about each of the sorting algorithms while they were running. 
+One of these statistics was the runtime of the method, in milliseconds. 
+After completing the classes, it was time to see the results. 
+When sorting a list of length 10, merge sort had the fastest time, followed by insertion sort and quick sort, respectively. 
+Once the list lengths start to increase, we begin to see the actual run time. 
+Insertion sort quickly becomes the slowest sorting algorithm of the three. 
+Insertion sort has a Big-O runtime of O(n^2). 
+This list length raised to an exponent quickly increases the runtime as the list length (n) increases. 
+The next quickest method is merge sort. Merge sort has a Big-O runtime of O(nlogn). 
+Nlogn is a way speedier runtime then n^2, making it a more efficient algorithm then insertion sort. 
+The fastest algorithm is quicksort. 
+Quicksort has a Big-O runtime of O(logn), making it the shortest of the three. 
+This makes quicksort the most efficient sorting algorithm that we know of. 
+Oddly though, in my code, merge sort was the quickest; followed by merge sort than insertion sort. 
+Merge sort wasn’t quicker by much, but it was quicker. 
+Besides that, the times greatly increased as the list grew. 
+Insertion sort went from sorting 100 words in 7190 ms and .7 ms/list to 1000 words in 71612 ms and 71.6 ms/list. 
+That is a huge increase in time. The same is for merge and quicksort. 
+Merge sort increase from 1682 ms and .16 ms/list to 3018 ms and 3 ms/list. 
+Quicksort increased from 285 ms and .26 ms/list to 3822 ms and 3.8 ms/list. 
+Contradictory to Big-O notation, merge sort was quicker than quicksort. 
+As you can see, they all increased but insertion sort had a drastic increase compared to the others. 
+As you can infer, even longer lists take incredible amounts of time to complete for insertion sort. 
+The other algorithms take a long time, but not as long as insertion sort. 
+All three algorithms achieve the same goal of correctly sorting the list according to a user-defined alphabet. 
+While the ending list is the same, we, as programmers, are trying to learn the most efficient way to solve our problems. 
+From this homework, we can see that merge and especially quick sort are the algorithms that we should apply when sorting lists. 
